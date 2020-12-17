@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('./RobotoMono-Regular.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  paddding: 0;
+  height: 95vh;
+  width: 99vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Mono';
+}
+
+div.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin: 10px 20px;
+  padding: 10px;
+  height: 100%;
+  width: 95%;
+  border: 3px solid darkblue;
+  > div {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  > .fetch-div {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px 15px;
+    border: 2px solid red;
+  }
+
+}
